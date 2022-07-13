@@ -1,0 +1,22 @@
+var str="this is a string of is my programm INDIA";
+var str2=" sourik my name";
+console.log(str);
+console.log(str.charAt(10));
+console.log(str.concat(str2));
+console.log(str.indexOf('is'));
+console.log(str.lastIndexOf('is'));
+console.log(str.slice(0,7));
+console.log(str.split(' '));
+console.log(str.substring(1,7));
+console.log(str.toLowerCase());
+console.log(str2.toUpperCase());
+console.log(str.search('string'));
+console.log(str.substr(8,9));
+console.log(str.replace('INDIA','pakistan'));
+// console.log(str.trim('A'));
+
+let simple='sourik';
+let purple="parui";
+let my=`this my name is ${simple} ${purple}`;
+console.log(my);
+document.body.innerHTML = my;

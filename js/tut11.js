@@ -1,0 +1,15 @@
+console.log("this is tut11");
+let a=window.document;
+// alert("this is java script");
+// let a=prompt('whats your name?','guest');
+// let a =confirm("you are in 18??");
+// let a=innerHeight;
+// let a=innerWidth;
+// let a=location.toString();
+// let a=history;
+// let a=close;
+// let a=blur;
+// let a=print;
+let b=scrollY;
+console.log(a);
+console.log(b);
